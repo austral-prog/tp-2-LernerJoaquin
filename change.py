@@ -4,9 +4,9 @@ def change():
     vuelto= money - expense
     print("Ingresar gasto:") 
     print(expense)
-    print("Dinero recibido:")
+    print("Dinero recibido")
     print(money)
-    print("\nvuelto")
+    print("\nVuelto")
     print("\npesos:")
     print(int(vuelto))
     print("centavos:")
