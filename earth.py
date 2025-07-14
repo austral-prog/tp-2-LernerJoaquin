@@ -1,9 +1,11 @@
 def earth():
-    x = "Bangladesh"
-    y = "Barbados"
-    str(x>y)
-    checkeo=str(x<y)
-    checkeo2=str(x>y)
-    print(f"the result of {x} comes first in the dictionary than {y} is {checkeo}. ")
-    print(f"the result of {y} comes first in the dictionary than {x} is {checkeo2}. ")
-earth()
+    country1 = "Bangladesh"
+    country2 = "Barbados"
+
+    # Comparaciones lexicográficas
+    first_comparison = country1 < country2
+    second_comparison = country2 < country1
+
+    # Resultados
+    print(f"The result of {country1} comes first in the dictionary than {country2} is {first_comparison}.")
+    print(f"The result of {country2} comes first in the dictionary than {country1} is {second_comparison}.")
